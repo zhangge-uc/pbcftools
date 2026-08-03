@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "pbcftools: parallel execution of bcftools for large variant call sets"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Ge
+    orcid: "https://orcid.org/0000-0002-0543-2254"
+license: MIT
+repository-code: "https://github.com/zhangge-uc/pbcftools"

@@ -1,0 +1,8 @@
+# Downloaded test data and anything produced by a run
+tests/data/
+tests/*_report_*.md
+tests/merge_run_*/
+tests/tmp_hpc_*/
+*.vcf.gz
+*.vcf.gz.csi
+*.tsv
