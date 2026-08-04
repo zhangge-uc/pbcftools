@@ -307,9 +307,9 @@ Benchmarking against real data needs 1000 Genomes Phase 3 files (note contigs ar
 ```bash
 mkdir -p tests/data && cd tests/data     # where the harness looks by default
 # Sites-only, genome-wide (1.9 GB, 84.8M variants)
-wget https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.wgs.phase3_shapeit2_mvncall_integrated_v5b.20130502.sites.vcf.gz{,.tbi}
+wget https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.wgs.phase3_shapeit2_mvncall_integrated_v5c.20130502.sites.vcf.gz{,.tbi}
 # Chr1 genotypes (1.2 GB, 6.5M variants, 2504 samples)
-wget https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr1.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz{,.tbi}
+wget https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr1.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz{,.tbi}
 bcftools index ALL.wgs.*.sites.vcf.gz
 bcftools index ALL.chr1.*.genotypes.vcf.gz
 ```
