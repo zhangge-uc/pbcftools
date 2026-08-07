@@ -31,7 +31,7 @@ BEGIN {
 use PBCFTools::ArgParser qw(scan_command_argv);
 use PBCFTools::Helpers;
 
-our $VERSION = '1.0.0';
+our $VERSION = '1.0.1';
 
 # show pbcftools version if it is the first argument
 # `--version` at other position is passed through to bcftools 
