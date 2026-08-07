@@ -79,14 +79,14 @@ The benchmark tier uses two 1000 Genomes Phase 3 files. Download them into
 
 ```
 https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/\
-ALL.wgs.phase3_shapeit2_mvncall_integrated_v5b.20130502.sites.vcf.gz
+ALL.wgs.phase3_shapeit2_mvncall_integrated_v5c.20130502.sites.vcf.gz
 ```
 
 **chr1 genotypes** — ~1.2 GB, 6.5M variants, 2504 samples:
 
 ```
 https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/\
-ALL.chr1.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz
+ALL.chr1.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz
 ```
 
 Index both with `bcftools index` after downloading.
