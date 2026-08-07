@@ -87,8 +87,8 @@ perl -c "$HERE/../bin/pbcftools.pl" >/dev/null 2>&1 \
          perl -c "$HERE/../bin/pbcftools.pl" 2>&1 | sed 's/^/       /' >&2; exit 2; }
 
 # The benchmark's two datasets, and the merge fixture. Only steps 3 and 4 need them.
-SITES="$HERE/data/ALL.wgs.phase3_shapeit2_mvncall_integrated_v5b.20130502.sites.vcf.gz"
-GENO="$HERE/data/ALL.chr1.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz"
+SITES="$HERE/data/ALL.wgs.phase3_shapeit2_mvncall_integrated_v5c.20130502.sites.vcf.gz"
+GENO="$HERE/data/ALL.chr1.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz"
 MERGELIST="$HERE/data/vcfs.lst"
 
 STEP=0
