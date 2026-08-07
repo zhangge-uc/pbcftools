@@ -44,7 +44,7 @@ if (@ARGV && $ARGV[0] eq '--version') {
 # banner is written once, to STDERR, so it never contaminates piped output. It is
 # suppressed for --help/--man, where pod2usage supplies its own heading.
 unless (grep { $_ eq '--help' or $_ eq '-?' or $_ eq '--man' } @ARGV) {
-    print STDOUT "pbcftools $VERSION - parallel bcftools\n\n";
+    print STDERR "pbcftools $VERSION - parallel bcftools\n\n";
 }
 
 #=================================================================================================
