@@ -33,11 +33,18 @@ use PBCFTools::Helpers;
 
 our $VERSION = '1.0.0';
 
+# show pbcftools version if it is the first argument
+# `--version` at other position is passed through to bcftools 
+if (@ARGV && $ARGV[0] eq '--version') {
+    print "pbcftools $VERSION\n";
+    exit 0;
+}
+
 # A single identifying line, in the style of ordinary command-line tools. The
 # banner is written once, to STDERR, so it never contaminates piped output. It is
 # suppressed for --help/--man, where pod2usage supplies its own heading.
 unless (grep { $_ eq '--help' or $_ eq '-?' or $_ eq '--man' } @ARGV) {
-    print STDERR "pbcftools $VERSION - parallel bcftools\n\n";
+    print STDOUT "pbcftools $VERSION - parallel bcftools\n\n";
 }
 
 #=================================================================================================
