@@ -49,8 +49,8 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"   # absolute; data via $SCRIPT_DIR/d
 # shellcheck source=/dev/null
 . "$SCRIPT_DIR/common.sh"
 PBCF="perl $SCRIPT_DIR/../bin/pbcftools.pl"
-SITES="$SCRIPT_DIR/data/ALL.wgs.phase3_shapeit2_mvncall_integrated_v5b.20130502.sites.vcf.gz"
-GENO_CHR1="$SCRIPT_DIR/data/ALL.chr1.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz"
+SITES="$SCRIPT_DIR/data/ALL.wgs.phase3_shapeit2_mvncall_integrated_v5c.20130502.sites.vcf.gz"
+GENO_CHR1="$SCRIPT_DIR/data/ALL.chr1.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz"
 GENO="$GENO_CHR1"
 OUTDIR="$SCRIPT_DIR/tmp_hpc_$$"     # under tests/ -> shared FS on HPC
 PLEN="10MB"
