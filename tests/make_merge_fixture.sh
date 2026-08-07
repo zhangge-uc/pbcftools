@@ -36,7 +36,7 @@ NFILES=100
 NSAMPLES=10
 REGION="1:1-50000000"
 OUT="$SCRIPT_DIR/data/vcfs"
-SRC="$SCRIPT_DIR/data/ALL.chr1.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz"
+SRC="$SCRIPT_DIR/data/ALL.chr1.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz"
 FORCE=0
 
 while [ $# -gt 0 ]; do
